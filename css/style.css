@@ -1,0 +1,91 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Libre+Baskerville&display=swap');
+
+:root {
+    --cream: #f4f2eb;
+    --red: #e4021b;
+    --yellow: #ffdb15;
+    --cornflower: #3f5e98;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--cream);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--red);
+    color: var(--cream);
+    padding: 30px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: 'League Spartan', sans-serif;
+}
+
+section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    color: var(--cornflower);
+    font-family: 'League Spartan', sans-serif;
+}
+
+footer {
+    background-color: var(--cornflower);
+    color: var(--cream);
+    padding: 10px;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.content {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.content p {
+    margin: 20px 0;
+}
+
+.highlight {
+    font-weight: bold;
+    color: var(--yellow);
+}
+
+/* Button Styling */
+.buttons {
+    margin-top: 30px;
+}
+
+.btn {
+    background-color: var(--cornflower);
+    color: var(--cream);
+    padding: 15px 25px;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.btn:hover {
+    background-color: var(--yellow);
+    color: var(--text-color);
+}
