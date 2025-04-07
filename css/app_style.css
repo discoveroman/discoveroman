@@ -1,0 +1,88 @@
+/* Import custom fonts */
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Libre+Baskerville&display=swap');
+
+:root {
+    --cream: #f4f2eb;
+    --red: #e4021b;
+    --yellow: #ffdb15;
+    --cornflower: #3f5e98;
+    --text-dark: #121212;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--cream);
+    color: var(--text-dark);
+    font-family: 'Libre Baskerville', serif;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--red);
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-family: 'League Spartan', sans-serif;
+    color: var(--cream);
+}
+
+section {
+    margin-top: 40px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: var(--cornflower);
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.app-list {
+    list-style: none;
+    padding: 0;
+}
+
+.app-list li {
+    padding: 20px 15px;
+    margin-bottom: 20px;
+    border-left: 5px solid var(--yellow);
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.app-list li h3 {
+    color: var(--cornflower);
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.app-list li p {
+    color: #333;
+    font-size: 1rem;
+    font-family: 'Libre Baskerville', serif;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: var(--red);
+    border-top: 2px solid var(--yellow);
+}
