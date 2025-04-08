@@ -86,3 +86,22 @@ footer {
     color: var(--red);
     border-top: 2px solid var(--yellow);
 }
+
+/* Home Button Styling */
+.home-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--cornflower); /* Use your cornflower color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: 'League Spartan', sans-serif; /* Use your header font */
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+    background-color: var(--yellow); /* Use your yellow color */
+    color: var(--text-dark); /* Use your text color */
+}

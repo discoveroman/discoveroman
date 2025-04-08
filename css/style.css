@@ -20,13 +20,25 @@ body {
 header {
     background-color: var(--red);
     color: var(--cream);
-    padding: 30px 20px;
-    text-align: center;
+    padding: 20px; /* Adjusted padding */
+    text-align: left; /* Align items to the left */
+    display: flex; /* Enable flexbox for alignment */
+    align-items: center; /* Vertically align items */
 }
 
 header h1 {
     font-size: 3em;
     font-family: 'League Spartan', sans-serif;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 75px; /* Adjust the height as needed */
+    margin-right: 20px; /* Add some space to the right of the logo */
 }
 
 section {
