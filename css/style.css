@@ -36,9 +36,21 @@ header h1 {
     align-items: center;
 }
 
+@keyframes fadeInMove {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .logo {
-    height: 75px; /* Adjust the height as needed */
-    margin-right: 20px; /* Add some space to the right of the logo */
+    height: 75px;
+    margin-right: 20px;
+    animation: fadeInMove 3s ease-in-out;
 }
 
 section {
