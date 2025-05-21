@@ -34,6 +34,8 @@ header h1 {
 .logo-container {
     display: flex;
     align-items: center;
+    overflow: hidden; /* Ensures cropping affects the rounded corners */
+    border-radius: 10px 10px 10px 10px; /* Applies rounded edges */
 }
 
 @keyframes fadeInMove {
@@ -51,6 +53,7 @@ header h1 {
     height: 75px;
     margin-right: 20px;
     animation: fadeInMove 3s ease-in-out;
+    clip-path: inset(10px 5px 0 5px); /* Crops the top 10px */
 }
 
 section {
