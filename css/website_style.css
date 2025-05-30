@@ -37,6 +37,13 @@ h1 {
     background: #004d40;
 }
 
+/* Button Group Layout */
+.button-group {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
 /* Section */
 section {
     padding: 40px;
